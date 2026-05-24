@@ -1,0 +1,50 @@
+C o m p l e t e d  i n t e r n s h i p  t r a i n i n g  a t  D i g i  S a i l o r .  D u r i n g  m y  i n t e r n s h i p ,  I  g a i n e d  h a n d s - o n
+e x p e r i e n c e  w o r k i n g  o n  w e b  p r o j e c t s  a n d  c o l l a b o r a t i n g  w i t h  e x p e r i e n c e d  d e v e l o p e r s .
+B E N J A M I N  R I C H A R D  J O N E  J
+S U M M A R Y
+W e b  d e v e l o p e r  w i t h  e x t e n s i v e  s k i l l s  i n  W e b  d e v e l o p m e n t .  P a s s i o n a t e  a b o u t  b u i l d i n g
+r e s p o n s i v e  a n d  u s e r  f r i e n d l y  w e b  a p p l i c a t i o n s .  A d e p t  a t  b o t h  f r o n t  e n d  a n d  b a c k  e n d
+d e v e l o p m e n t  e a g e r  t o  c o n t r i b u t e  m y  t e c h n i c a l  s k i l l s  a n d  c r e a t i v i t y  t o  a  d y n a m i c
+d e v e l o p m e n t  t e a m .
+W O R K  E X P E R I E N C E
+E D U C A T I O N
+B a c h e l o r  o f  E n g i n e e r i n g  i n  C o m p u t e r  S c i e n c e
+C o m p l e t e d  B . E .  i n  C o m p u t e r  S c i e n c e  a n d  E n g i n e e r i n g  f r o m  H o l y  C r o s s  E n g i n e e r i n g
+C o l l e g e  w i t h  a  C G P A  o f  8 . 0 .
+ A u g  2 0 2 0  -  M a y  2 0 2 4
+H a n d s - o n  e x p e r i e n c e  i n  r e a l - w o r l d  p r o j e c t s  u s i n g  d i v e r s e  t e c h n o l o g i e s .
+B u i l t  a  S t u d e n t  M a n a g e m e n t  S y s t e m  f o r  m a n a g i n g  s t u d e n t  r e c o r d s  a n d  a c a d e m i c
+d e t a i l s ,  
+A n d  a  B o o k  S t o r e  M a n a g e m e n t  S y s t e m  f o r  h a n d l i n g  b o o k  i n v e n t o r y ,  s a l e s ,  a n d
+c u s t o m e r  d a t a .
+S k y b r i s k  ,  W e b  D e v e l o p e r  I n t e r n
+A u g  2 0 2 5  -  J a n  2 0 2 6
+S K I L L S
+D i g i s a i l o r  ,  I n t e r n
+A u g  2 0 2 4  -  S e p  2 0 2 4
+F r o n t - e n d  :  H T M L ,  C S S ,  T a i l w i n d  C S S  J a v a s c r i p t ,  R e a c t .
+B a c k - e n d  :  N o d e  j s  ,  E x p r e s s  j s  ,  M o n g o D B  ,  S Q L .
+P r o g r a m m i n g  l a n g u a g e s :  P y t h o n
+S t r o n g  c o m m u n i c a t i o n  a n d  i n t e r p e r s o n a l  s k i l l s
+G o o d  p r o b l e m - s o l v i n g  a n d  a n a l y t i c a l  t h i n k i n g
+A C H I E V E M E N T S
+P y h t o n  P r o g r a m m i n g  C o u r s e  G u v i
+C o m p l e t e d  a n  i n t e n s i v e  P y t h o n  p r o g r a m m i n g  c o u r s e ,  c o v e r i n g  f u n d a m e n t a l s  a n d  b a s i c
+c o n c e p t s .  
+T C S  N a t i o n a l  Q u a l i f i e r  T e s t
+P a r t i c i p a t e d  i n  t h e  T C S  N Q T  t e s t  a n d  s c o r e d  7 7 % .
+L i n k
++ 9 1  9 3 8 4 3 6 4 5 0 4
+j o n e k 3 3 1 8 @ g m a i l . c o m
+J .  J O N E  |  L I N K E D I N
+P R O J E C T S
+C H E S S  A C A D E M Y
+C h e s s  A c a d e m y  i s  a  w e b - b a s e d  m a n a g e m e n t  s y s t e m  b u i l t  u s i n g  H T M L ,  C S S ,  J a v a S c r i p t ,
+F l a s k  ( P y t h o n ) ,  M y S Q L ,  a n d  h o s t e d  o n  P y t h o n A n y w h e r e .
+T h e  p l a t f o r m  a l l o w s  s t a f f  t o  e n r o l l  s t u d e n t s ,  m a n a g e  f e e  p a y m e n t s ,  t r a c k  d u e  a m o u n t s  a n d
+d u e  d a t e s ,  a n d  u p d a t e  p a y m e n t  s t a t u s .
+A d m i n s  c a n  a l s o  c r e a t e  a n d  m a n a g e  b r a n c h e s ,  e n r o l l  s t a f f   a n d  a s s i g n  s t a f f s  t o  s p e c i f i c
+b r a n c h e s .
+T h e  d a s h b o a r d  p r o v i d e s  a  c l e a r  o v e r v i e w  o f  e n r o l l e d  s t u d e n t s ,  p e n d i n g  d u e s ,  a n d  t o t a l
+r e v e n u e  g e n e r a t e d .
+                                     L i n k :  S h a d o w 1 2 2 0 0 3 . p y t h o n a n y w h e r e . c o m
