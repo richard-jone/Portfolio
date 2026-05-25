@@ -36,7 +36,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.2 }}
-              className="glass rounded-2xl overflow-hidden group hover:-translate-y-2 transition-transform duration-300 border border-slate-200 dark:border-slate-700 hover:border-primary/50"
+              className="glass rounded-2xl overflow-hidden group hover:-translate-y-2 transition-transform duration-300 border border-white/10 hover:border-primary/50"
             >
               <div className="h-48 bg-slate-800 flex items-center justify-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/80 to-secondary/80 opacity-60"></div>
@@ -44,20 +44,20 @@ const Projects = () => {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-3">{project.title}</h3>
-                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4 leading-relaxed">
+                <h3 className="text-2xl font-bold text-gray-100 mb-3">{project.title}</h3>
+                <p className="text-gray-400 mb-6 line-clamp-4 leading-relaxed">
                   {project.description}
                 </p>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, i) => (
-                    <span key={i} className="text-xs font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 px-2.5 py-1 rounded-md">
+                    <span key={i} className="text-xs font-medium bg-slate-200 bg-slate-700 text-gray-300 px-2.5 py-1 rounded-md">
                       {tech}
                     </span>
                   ))}
                 </div>
                 
-                <div className="flex items-center gap-4 mt-auto pt-4 border-t border-slate-200 dark:border-slate-700">
+                <div className="flex items-center gap-4 mt-auto pt-4 border-t border-white/10">
                   <a href={project.github} className="text-slate-500 hover:text-primary transition-colors flex items-center gap-1">
                     <FiGithub size={20} /> <span className="text-sm font-medium">Code</span>
                   </a>

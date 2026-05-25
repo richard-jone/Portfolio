@@ -3,13 +3,13 @@ import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 pt-12 pb-8">
+    <footer className="bg-slate-100 bg-slate-900 border-t border-white/10 pt-12 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <span className="text-2xl font-bold text-gradient">Jone.dev</span>
-            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-              Building responsive and user-friendly web applications.
+            <p className="mt-2 text-sm text-gray-400">
+             
             </p>
           </div>
           
@@ -26,9 +26,9 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 text-center">
-          <p className="text-sm text-slate-500 dark:text-slate-400">
-            &copy; {new Date().getFullYear()} Benjamin Richard Jone J. All rights reserved.
+        <div className="mt-8 pt-8 border-t border-white/10 text-center">
+          <p className="text-sm text-gray-400">
+            &copy; {new Date().getFullYear()} 
           </p>
         </div>
       </div>

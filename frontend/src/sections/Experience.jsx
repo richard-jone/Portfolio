@@ -19,7 +19,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-slate-100/50 dark:bg-slate-800/50 relative">
+    <section id="experience" className="py-20 bg-slate-100/50 bg-slate-800/50 relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
@@ -46,17 +46,17 @@ const Experience = () => {
               
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 relative z-10">
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-                    <FiBriefcase className="text-primary" /> {exp.role}
+                  <h3 className="text-2xl font-bold text-gray-100 flex items-center gap-2">
+                    <FiBriefcase className="text-primary" /> {exp.role} 
                   </h3>
                   <h4 className="text-lg font-medium text-secondary mt-1">{exp.company}</h4>
                 </div>
-                <div className="mt-2 md:mt-0 inline-flex items-center gap-2 text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 px-4 py-1.5 rounded-full w-max">
+                <div className="mt-2 md:mt-0 inline-flex items-center gap-2 text-sm font-medium bg-slate-200 bg-slate-700 text-white-900 text-white-300 px-4 py-1.5 rounded-full w-max">
                   <FiCalendar /> {exp.duration}
                 </div>
               </div>
               
-              <p className="text-slate-600 dark:text-slate-400 relative z-10 leading-relaxed">
+              <p className="text-gray-400 relative z-10 leading-relaxed">
                 {exp.description}
               </p>
             </motion.div>

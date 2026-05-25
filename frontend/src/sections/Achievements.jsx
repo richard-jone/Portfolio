@@ -19,7 +19,7 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    <section id="achievements" className="py-20 bg-slate-100/50 dark:bg-slate-800/50 relative">
+    <section id="achievements" className="py-20 bg-slate-100/50 bg-slate-800/50 relative">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
@@ -40,15 +40,15 @@ const Achievements = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.2 }}
-              className="glass p-6 md:p-8 rounded-2xl flex items-start gap-6 hover:shadow-lg transition-all duration-300 border border-slate-200 dark:border-slate-700 hover:border-secondary/50 group"
+              className="glass p-6 md:p-8 rounded-2xl flex items-start gap-6 hover:shadow-lg transition-all duration-300 border border-white/10 hover:border-secondary/50 group"
             >
-              <div className="bg-slate-200 dark:bg-slate-700 p-4 rounded-xl group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-slate-200 bg-slate-700 p-4 rounded-xl group-hover:scale-110 transition-transform duration-300">
                 {item.icon}
               </div>
               <div>
-                <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-1">{item.title}</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-1">{item.title}</h3>
                 <h4 className="text-sm font-medium text-primary mb-3">{item.organization}</h4>
-                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                <p className="text-gray-400 text-sm leading-relaxed">
                   {item.description}
                 </p>
               </div>

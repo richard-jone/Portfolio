@@ -10,9 +10,8 @@ frontend/dist/
 # =========================
 
 backend/venv/
-backend/__pycache__/
-backend/routes/__pycache__/
-backend/*.pyc
+backend/node_modules/
+
 
 # =========================
 # ROOT VENV

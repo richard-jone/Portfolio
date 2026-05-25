@@ -31,7 +31,7 @@ const ResumeSection = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="glass rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-2xl h-[600px] w-full"
+          className="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl h-[600px] w-full"
         >
           <iframe 
             src="/resume.pdf#toolbar=0" 

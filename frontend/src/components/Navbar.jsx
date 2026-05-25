@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FiMenu, FiX, FiMoon, FiSun } from 'react-icons/fi';
+import { FiMenu, FiX } from 'react-icons/fi';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -11,7 +11,7 @@ const navLinks = [
   { name: 'Contact', href: '#contact' },
 ];
 
-const Navbar = ({ darkMode, toggleDarkMode }) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -37,16 +37,10 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 {link.name}
               </a>
             ))}
-            <button onClick={toggleDarkMode} className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
-              {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
-            </button>
           </div>
 
           <div className="md:hidden flex items-center">
-            <button onClick={toggleDarkMode} className="p-2 mr-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
-              {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
-            </button>
-            <button onClick={() => setIsOpen(!isOpen)} className="text-slate-900 dark:text-slate-50 focus:outline-none">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-gray-50 focus:outline-none">
               {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
           </div>
@@ -66,7 +60,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 key={link.name} 
                 href={link.href} 
                 onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium hover:text-primary hover:bg-slate-100 dark:hover:bg-slate-800"
+                className="block px-3 py-2 rounded-md text-base font-medium hover:text-primary hover:bg-gray-800"
               >
                 {link.name}
               </a>
